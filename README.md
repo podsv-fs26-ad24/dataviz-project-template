@@ -127,7 +127,10 @@ The setting `execute: freeze: auto` in `_quarto.yml` ensures that Python computa
    ```bash
    cd docs && uv run quarto render
    ```
-The `_freeze` directory and the workflow file `.github/workflows/publish.yml` should alread be in the repository.
+3. Push the changes to `main`
+
+The `_freeze` directory and the workflow file `.github/workflows/publish.yml` should already be tracked in the repository.
+
 
 #### Publishing Updates
 
